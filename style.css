@@ -1,0 +1,57 @@
+/*
+Theme Name: Support Westwood 2020
+Author: Jeff Cracolici (jc@jeffcracolici.com)
+Version: 1.0.0
+*/
+
+.biz_name p {
+    margin-bottom: 2.5px;
+    font-size: 14px;
+}
+
+.biz_name h3 {
+    margin-bottom: 7.5px;
+    font-size: 18px;
+	font-weight:600;
+}
+
+footer {
+	background-color: #262456;
+}
+
+.container {
+	width:95%;
+}
+
+.biz-bubble {
+	border-radius:10px;
+}
+
+.biz-bubble h3 {
+	font-size:1.25em;
+	line-height:1.1;
+	margin-bottom:3px;
+}
+
+.otis {
+	border-top:1px solid #cfcfcf;
+	border-bottom:1px solid #cfcfcf;
+	background-color: #ededed;
+	background-image:url('http://www.supportwestwoodnj.com/wp-content/themes/Support%20WW%202020/assets/otis-redding.png');
+}
+
+.p-10 {
+    padding: 6rem!important;
+}
+
+.pb-10, .py-10 {
+    padding-bottom: 6rem!important;
+}
+
+.pt-10, .py-10 {
+    padding-top: 6rem!important;
+}
+
+.bg--primary {
+    background: #ee1d26;
+}
