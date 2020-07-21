@@ -139,22 +139,22 @@ function create_meta_box() {
 
 function meta_fields($metabox) {
 	$custom_meta_fields = array();	
+	
 	$custom_meta_fields['address'] = array('metabox' => 'address', 'type' => 'text');
 	$custom_meta_fields['address_two'] = array('metabox' => 'address', 'type' => 'text');
 	$custom_meta_fields['city'] = array('metabox' => 'address', 'type' => 'text');
 	$custom_meta_fields['state'] = array('metabox' => 'address', 'type' => 'select', 'choices' => state_listing());
 	$custom_meta_fields['zip'] = array('metabox' => 'address', 'type' => 'text', 'maxlength' => '5');
+	
 	$custom_meta_fields['phone'] = array('metabox' => 'contact_info', 'type' => 'text');
 	$custom_meta_fields['url'] = array('metabox' => 'contact_info', 'type' => 'text');
+	
 	$custom_meta_fields['note'] = array('metabox' => 'other', 'type' => 'text');
+	
 	$custom_meta_fields['takeout'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
 	$custom_meta_fields['delivery'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
 	$custom_meta_fields['outdoor_eating'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
-	$custom_meta_fields['uber'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
-	$custom_meta_fields['doordash'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
-	$custom_meta_fields['grubhub'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
-	$custom_meta_fields['postmates'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
-	$custom_meta_fields['slice'] = array('metabox' => 'biz_info', 'type' => 'select', 'choices' => choices_true_false());
+
 	
 	$custom_meta_fields['category'] = array('metabox' => 'category', 'type' => 'select', 'choices' => category_listing());
 	
