@@ -10,7 +10,7 @@
 	}
 	
 	$bizs = fetch_businesses_by_cat($cat_id);
-	$logo = '/wp-content/themes/Support%20WW%202020/assets/WWC%20Logo.jpg';
+	$logo = 'https://support.westwoodnjchamber.com/wp-content/uploads/2020/07/WW-Chamber-logo_final.jpg';
 ?>
 <div class="bg-white py-3">
 	<div class="container ">
