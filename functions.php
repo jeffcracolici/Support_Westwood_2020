@@ -316,9 +316,9 @@ function biz_row_two($id) {
 		$contact .= $ahref;
 	}
 		
-	echo format_biz_address($id);
+	echo '<p class="mb-0 small">' . format_biz_address($id) . '</p>';
 		
-	echo '<div class="row align-items-center">';
+	echo '<div class="row align-items-center my-3">';
 	echo return_checkmark_two(get_post_meta($id, 'takeout', true), 'Takeout / Pick Up');
 	echo return_checkmark_two(get_post_meta($id, 'delivery', true), 'Delivery');
 	echo return_checkmark_two(get_post_meta($id, 'outdoor_eating', true), 'Outdoor Seating');
@@ -330,7 +330,7 @@ function biz_row_two($id) {
 
 function return_checkmark_two($value, $field) {
 	if($value == 'T') {
-		return '<div class="col-6 py-2"><i class="fas fa-check-circle"></i><span class="ml-3">'. $field . '</span></div>';
+		return '<div class="col-6 py-1"><i class="fas fa-check-circle"></i><span class="ml-3">'. $field . '</span></div>';
 		
 	}
 }
